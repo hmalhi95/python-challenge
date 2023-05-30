@@ -63,7 +63,7 @@ with open('analysis/pypoll_analysis.txt', 'w') as f:
     f.write(f"Total Votes: {str(total_votes)}\n" )
     f.write("-------------------------\n")
     for i in range(len(candidates)):
-        f.write(f"{candidates[i]}: {str(percent_votes[i])} ({str(num_votes[i])})")
+        f.write(f"{candidates[i]}: {str(percent_votes[i])} ({str(num_votes[i])})\n")
     f.write("-------------------------\n")
     f.write(f"Winner: {winning_candidate}\n")
     f.write("-------------------------")
